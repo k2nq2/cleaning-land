@@ -1,0 +1,172 @@
+.c4{
+
+}
+.c4-head-text{
+    font-family: var(--main-family);
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 137%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    margin-top: 3.3rem;
+}
+.c4-second-text{
+    font-family: var(--main-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    text-align: center;
+    color: #000;
+    margin-top: 4rem;
+}
+.c4-room{
+    border: 1px solid #9b9b9b;
+    border-radius: 15rem;
+    width: 8.9rem;
+    height: 4.5rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--main-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    text-align: center;
+    color: #000;
+}
+.c4-room-wrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.c4-kitchen{
+    width: 37rem;
+    height: 35rem;
+    background-image: url(../../images/c4-kitchen.jpg);
+    background-size: contain;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.c4-circle-first{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 100%;
+    background: rgba(66, 120, 246, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 6rem;
+    left: 5.4rem;
+}
+.c4-circle-first:nth-child(2){
+    top: 6rem;
+    left: 13rem;
+}
+.c4-circle-first:nth-child(3){
+    top: 1rem;
+    left: 27.5rem;
+}
+.c4-circle-first:nth-child(4){
+    top: 5.5rem;
+    left: 9.5rem;
+}
+.c4-circle-first:nth-child(5){
+    top: 8.5rem;
+    left: 5.5rem;
+}
+.c4-circle-first:nth-child(6){
+    top: 11rem;
+    left: 29rem;
+}
+.c4-circle{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background: #4278f6;
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hiddenText{
+    position: absolute;
+    width: 31rem;
+    height: 17.1rem;
+    border-radius: 1rem;
+    background: #E8EFFF;
+    padding: 2rem;
+    font-family: var(--main-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    color: #000;
+    display: none;
+    text-align: left;
+    left: 2rem;
+    left: 7rem;
+    top: 168rem;
+}
+.hiddenshow{
+    display: block;
+}
+#hiddentext2{
+    top: 190rem;
+    height: 14rem;
+}
+#hiddentext3{
+    top: 212rem;
+    height: 14rem;
+}
+#hiddentext4{
+    top: 234rem;
+    height: 20rem;
+}
+
+.c4-hiddentext{
+    border-radius: 0.5rem;
+    width: 8.6rem;
+    height: 3.9rem;
+    background: #fff;
+    font-family: var(--main-family);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 130%;
+    text-align: center;
+    color: #5a6487;
+    display: none;
+    position: relative;
+    left: 25%;
+    top: -43rem;
+}
+.c4-hiddenshow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#c4-hiddentext2{
+    top: -41.5rem;
+    left: 10.3rem;
+}
+#c4-hiddentext3{
+    left: 20rem;
+}
+#c4-hiddentext4{
+    top: -28rem;
+    left: 13rem;
+}
+#c4-hiddentext5{
+    top: -22rem;
+    left: 9rem;
+}
+#c4-hiddentext6{
+    top: -20rem;
+    left: 20rem;
+}
