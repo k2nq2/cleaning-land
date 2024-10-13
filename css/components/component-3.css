@@ -1,0 +1,50 @@
+.c3 {
+    
+}
+
+.c3-div{
+    width: 37rem;
+    height: 20rem;
+    background-image: url(../../images/c3-1.jpg);
+    background-size: cover;
+    padding: 3rem 0rem 3rem 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.06);
+}
+.c3-div:nth-child(2){
+    background-image: url(../../images/c3-2.jpg);
+}
+.c3-div:nth-child(3){
+    background-image: url(../../images/c3-3.jpg);
+}
+.c3-div:nth-child(4){
+    background-image: url(../../images/c3-4.jpg);
+}
+.c3-circle{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    background: #4278f6;
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 3.7rem;
+    line-height: 95%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding-top: 0.7rem;
+}
+
+.c3-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+}
+.c3-wrap img{
+    width: 17.5rem;
+}

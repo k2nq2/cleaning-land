@@ -1,0 +1,184 @@
+.c9{
+    background-image: url(../../images/c9-img.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    height: 49.6rem;
+    padding-top: 22rem;
+    margin-top: 11.4rem;
+}
+.cleaners{
+    width: 37rem;
+    height: 25rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    padding: 3.5rem 2rem 2rem 2rem;
+}
+.cleaners-head{
+    font-family: var(--main-family);
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 100%;
+    text-align: center;
+    color: #4278f6;
+    margin-bottom: 2.5rem;
+}
+.cleaners-sub{
+    font-family: var(--main-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    text-align: center;
+    color: #000;
+}
+.what-price{
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    padding-left: 3rem;
+    margin-bottom: 2rem;
+}
+.what-price p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    color: #000;
+}
+.what-price img{
+    
+}
+.c10-contacts{
+    display: flex;
+    gap: 1.7rem;
+    align-items: flex-start;
+    padding-left: 4rem;
+    margin-bottom: 4rem;
+}
+.c10-contacts p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    color: #000;
+}
+.c10-contacts img{
+    padding-top: 0.5rem;
+}
+
+.form_rating2{
+    font-family: var(--main-family);
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 143%;
+text-align: center;
+color: #000;
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 2.3rem;
+}
+.star_rating2{
+    position: relative;
+    display: inline-block;
+    font-size: 4rem;
+    
+}
+.star_rating2::before{
+    content: "★★★★★";
+    display: block;
+    
+}
+.rating_items2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.rating_item2{
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    opacity: 0;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+}
+.rating_lable2{
+    flex: 0 0 20%;
+    height: 100%;
+    cursor: pointer;
+    color: #B6B6B6;
+}
+.rating_lable2::before{
+    content: "★";
+    display: block;
+    transition: color 0.3s ease 0s;
+
+}
+.rating_lable2:hover,
+.rating_lable2:hover ~ .rating_lable2,
+.rating_lable2:checked ~ .rating_lable2:hover {
+    color: #e99458;
+
+}
+.rating_item2:checked,
+.rating_item2:checked ~ .rating_lable2{
+    color: #FF6B00;
+}
+
+.form{
+    border-radius: 2rem;
+    width: 37rem;
+    height: 30.5rem;
+    background: #fff;
+    box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.1);
+    padding-right: 4.1rem;
+    padding-left: 4.1rem;
+    padding-top: 4.3rem;
+    padding-bottom: 2.5rem;
+    margin-top: 4rem;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 4.3rem;
+    margin-bottom: 8rem;
+}
+.about a{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    color: #000;
+}
+.c11-contacts{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 143%;
+text-align: center;
+color: #000;
+margin-top: 4.3rem;
+}
+.signs{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2.5rem;
+}
+.policy{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    text-align: center;
+    color: #000;
+    margin-top: 6.5rem;
+    margin-bottom: 4rem;
+}
